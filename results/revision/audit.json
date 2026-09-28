@@ -1,0 +1,329 @@
+{
+  "status": "PASS",
+  "files": {
+    "baselines_v2.jsonl": {
+      "rows": 1440,
+      "sha256": "d66e0652617b2746ad4fe4b3b79bb1c154e90a206c638d0d6c377d3246d37f07"
+    },
+    "rl.jsonl": {
+      "rows": 3600,
+      "sha256": "e4ffae980ce6c5660a88b3b6d5ef9244784afb2604c201510815896f60476082"
+    },
+    "real_baselines_v2.jsonl": {
+      "rows": 126,
+      "sha256": "0a03ec65402057c5b38de4de135ce0592635a37d60d613062ce895231fbd0b6a"
+    },
+    "real_rl_cuda.jsonl": {
+      "rows": 300,
+      "sha256": "3354417abeaa580ce82c44d7a0b1d0fc1463796102a83f6ec6a89dca884205f5"
+    },
+    "budget.jsonl": {
+      "rows": 1440,
+      "sha256": "202cc0093ea7ad61df2644fd08cee6d25155e25db1a6fb66decf767d454e67ed"
+    }
+  },
+  "networkx_crosschecks": [
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_ER_0.1_30_0",
+      "method": "Random",
+      "networkx_final": 0.10585855031667842
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_ER_0.1_80_2",
+      "method": "FullGreedy",
+      "networkx_final": 0.035510491888291314
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_ER_0.2_30_5",
+      "method": "IncidentGreedy",
+      "networkx_final": 0.09237821565407772
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_ER_0.2_80_8",
+      "method": "SampledGreedy100",
+      "networkx_final": 0.011969410404947955
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_BA_2_50_1",
+      "method": "SampledGreedy20",
+      "networkx_final": 0.02879095183563023
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_BA_2_100_4",
+      "method": "Degree",
+      "networkx_final": 0.02401858809333907
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_BA_3_50_7",
+      "method": "Random",
+      "networkx_final": 0.0017546352147865167
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_BA_3_100_9",
+      "method": "FullGreedy",
+      "networkx_final": 0.0346759882281144
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_WS_0.1_80_2",
+      "method": "IncidentGreedy",
+      "networkx_final": 0.563943829620558
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_WS_0.2_30_5",
+      "method": "SampledGreedy100",
+      "networkx_final": 0.12889292239175568
+    },
+    {
+      "file": "baselines_v2.jsonl",
+      "id": "test_WS_0.2_80_8",
+      "method": "SampledGreedy20",
+      "networkx_final": 0.008568810704566356
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_ER_0.1_30_0",
+      "method": "exact",
+      "networkx_final": 0.35978620449063803
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_BA_3_50_7",
+      "method": "exact",
+      "networkx_final": 0.042052814797102725
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_ER_0.1_100_4",
+      "method": "exact",
+      "networkx_final": 0.015322731486693605
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.1_50_1",
+      "method": "exact",
+      "networkx_final": 0.40527836675795864
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_ER_0.2_80_8",
+      "method": "exact",
+      "networkx_final": 0.013574295563988698
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.2_30_5",
+      "method": "exact",
+      "networkx_final": 0.11924723912553528
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_BA_2_80_2",
+      "method": "exact",
+      "networkx_final": 0.049499232541382415
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.2_100_9",
+      "method": "exact",
+      "networkx_final": 0.1328011660235459
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_BA_3_50_6",
+      "method": "exact",
+      "networkx_final": 0.05301890985239324
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_ER_0.1_100_3",
+      "method": "no_bc",
+      "networkx_final": 0.033457397530236306
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.1_50_0",
+      "method": "no_bc",
+      "networkx_final": 0.48358641436372535
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_ER_0.2_80_7",
+      "method": "no_bc",
+      "networkx_final": 0.012052696307139036
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.2_30_4",
+      "method": "no_bc",
+      "networkx_final": 0.15962990211758687
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_BA_2_80_1",
+      "method": "no_bc",
+      "networkx_final": 0.06630545785852504
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.2_100_8",
+      "method": "no_bc",
+      "networkx_final": 0.11393851527699725
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_BA_3_50_5",
+      "method": "no_bc",
+      "networkx_final": 0.05662101531699371
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_ER_0.1_100_2",
+      "method": "no_bc",
+      "networkx_final": 0.022830322503397473
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.1_30_9",
+      "method": "no_bc",
+      "networkx_final": 0.43895730706075536
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_ER_0.2_80_6",
+      "method": "myopic",
+      "networkx_final": 0.01746302231446791
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.2_30_3",
+      "method": "myopic",
+      "networkx_final": 0.1321467667526781
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_BA_2_80_0",
+      "method": "myopic",
+      "networkx_final": 0.0573363390168073
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.2_100_7",
+      "method": "myopic",
+      "networkx_final": 0.12522263868892164
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_BA_3_50_4",
+      "method": "myopic",
+      "networkx_final": 0.050215560610968775
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_ER_0.1_100_1",
+      "method": "myopic",
+      "networkx_final": 0.01380397281507363
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.1_30_8",
+      "method": "myopic",
+      "networkx_final": 0.44971068887325044
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_ER_0.2_80_5",
+      "method": "myopic",
+      "networkx_final": 0.015382041563035116
+    },
+    {
+      "file": "rl.jsonl",
+      "id": "test_WS_0.2_30_2",
+      "method": "myopic",
+      "networkx_final": 0.15716229173125723
+    },
+    {
+      "file": "real_rl_cuda.jsonl",
+      "id": "email-Eu-core_BFS_80_1_target0",
+      "method": "no_bc",
+      "networkx_final": 0.01795430267010861
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_ER_0.1_50_0",
+      "method": "Degree",
+      "networkx_final": 0.038758249026106174
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_WS_0.1_50_5",
+      "method": "FullGreedy",
+      "networkx_final": 0.11774005237015442
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_BA_3_50_4",
+      "method": "exact",
+      "networkx_final": 0.00711889914696037
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_WS_0.2_50_1",
+      "method": "exact",
+      "networkx_final": 0.04050407854617037
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_BA_2_50_2",
+      "method": "FullGreedy",
+      "networkx_final": 0.05752041797960164
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_BA_2_50_5",
+      "method": "exact",
+      "networkx_final": 0.058421448675543726
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_WS_0.1_50_2",
+      "method": "exact",
+      "networkx_final": 0.20840234799015678
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_WS_0.2_50_9",
+      "method": "exact",
+      "networkx_final": 0.06453091781723233
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_WS_0.1_50_5",
+      "method": "IncidentGreedy",
+      "networkx_final": 0.5555070873948424
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_BA_3_50_3",
+      "method": "exact",
+      "networkx_final": 0.12340687523760752
+    },
+    {
+      "file": "budget.jsonl",
+      "id": "test_WS_0.2_50_0",
+      "method": "exact",
+      "networkx_final": 0.22691819471156205
+    }
+  ],
+  "training_runs": 15,
+  "training_episodes": 75000
+}

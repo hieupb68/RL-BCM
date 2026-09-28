@@ -1,0 +1,152 @@
+[
+  {
+    "seed": 11,
+    "variant": "exact",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 1.0,
+    "elapsed": 456.0847869999998,
+    "updates": 313
+  },
+  {
+    "seed": 22,
+    "variant": "exact",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 1.0,
+    "elapsed": 489.1576420000056,
+    "updates": 313
+  },
+  {
+    "seed": 33,
+    "variant": "exact",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 1.0,
+    "elapsed": 471.6407076000032,
+    "updates": 313
+  },
+  {
+    "seed": 44,
+    "variant": "exact",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 1.0,
+    "elapsed": 408.87950799999817,
+    "updates": 313
+  },
+  {
+    "seed": 55,
+    "variant": "exact",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 1.0,
+    "elapsed": 403.1343930000003,
+    "updates": 313
+  },
+  {
+    "seed": 11,
+    "variant": "no_bc",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": false,
+    "gamma": 1.0,
+    "elapsed": 371.9673919999914,
+    "updates": 313
+  },
+  {
+    "seed": 22,
+    "variant": "no_bc",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": false,
+    "gamma": 1.0,
+    "elapsed": 394.6360746999999,
+    "updates": 313
+  },
+  {
+    "seed": 33,
+    "variant": "no_bc",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": false,
+    "gamma": 1.0,
+    "elapsed": 380.96041569999943,
+    "updates": 313
+  },
+  {
+    "seed": 44,
+    "variant": "no_bc",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": false,
+    "gamma": 1.0,
+    "elapsed": 392.2701282000053,
+    "updates": 313
+  },
+  {
+    "seed": 55,
+    "variant": "no_bc",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": false,
+    "gamma": 1.0,
+    "elapsed": 392.19662270000845,
+    "updates": 313
+  },
+  {
+    "seed": 11,
+    "variant": "myopic",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 0.0,
+    "elapsed": 374.6066063999897,
+    "updates": 313
+  },
+  {
+    "seed": 22,
+    "variant": "myopic",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 0.0,
+    "elapsed": 396.5744502000016,
+    "updates": 313
+  },
+  {
+    "seed": 33,
+    "variant": "myopic",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 0.0,
+    "elapsed": 380.47075969999423,
+    "updates": 313
+  },
+  {
+    "seed": 44,
+    "variant": "myopic",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 0.0,
+    "elapsed": 393.40221430000383,
+    "updates": 313
+  },
+  {
+    "seed": 55,
+    "variant": "myopic",
+    "episodes": 5000,
+    "device": "cpu",
+    "use_bc": true,
+    "gamma": 0.0,
+    "elapsed": 395.05213090000325,
+    "updates": 313
+  }
+]

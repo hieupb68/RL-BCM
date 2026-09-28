@@ -1,0 +1,43 @@
+{
+  "version": "post-review-v1",
+  "baseline_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "methods": [
+    "SampledIncidentGreedy20",
+    "SampledIncidentGreedy100"
+  ],
+  "budget": 5,
+  "synthetic_graphs": 240,
+  "real_instances": 30,
+  "selection": "All existing held-out instances; no new model training or selection",
+  "timing": {
+    "families": [
+      "ER",
+      "BA",
+      "WS"
+    ],
+    "sizes": [
+      50,
+      100,
+      256
+    ],
+    "graphs_per_family_size": 5,
+    "repetitions": 3,
+    "threads": 1,
+    "model_seed": 11,
+    "order": "deterministic shuffled per repetition",
+    "audit_bc_excluded": true,
+    "compilation_and_loading_excluded": true
+  },
+  "cpu": "Intel Core i7-9750H @ 2.60 GHz",
+  "ram_bytes": 17023488000,
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "python": "3.11.9",
+  "torch": "2.0.1+cu117",
+  "scope": "Post-hoc follow-up to reviewer-style audit, not a prospectively selected primary hypothesis"
+}

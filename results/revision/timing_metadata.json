@@ -1,0 +1,11 @@
+{
+  "device": "cpu",
+  "threads": 1,
+  "model_seed": 11,
+  "repeats": 3,
+  "graphs_per_size": 3,
+  "compiled_warmup": true,
+  "model_loading_timed": false,
+  "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "torch": "2.0.1+cu117"
+}

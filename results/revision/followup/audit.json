@@ -1,0 +1,25 @@
+{
+  "synthetic": {
+    "rows": 2400,
+    "networkx_checks": 25,
+    "replayed_all_finals": true
+  },
+  "real": {
+    "rows": 300,
+    "networkx_checks": 3,
+    "replayed_all_finals": true
+  },
+  "timing": {
+    "rows": 1170,
+    "graphs": 45,
+    "replayed_all_distinct_trajectories": true
+  },
+  "files": {
+    "synthetic.jsonl": "a4afec49ce8cc8287204bb3e6f23d44b5569f2693112396126b2d3315fd79374",
+    "real.jsonl": "61391db3b94691b18f7fc791d7292b811312202e7716f9dff9a18c0c5206dd3d",
+    "timing.jsonl": "030a572f3fa5d8ca3d60df3b52d149af1f867cc0312aa775fae2f14b87f63e9a",
+    "protocol.json": "d5728d1e71d99e1a0124f6c03891a97e2a52203b4b6b822c264ca66a684d0c09",
+    "timing_graphs.json": "4c78c42c6cc21c7e1149a4dfa58f1da8e091650088782c6f6975cfe146802a2e"
+  },
+  "status": "PASS"
+}

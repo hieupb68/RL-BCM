@@ -1,0 +1,8388 @@
+[
+  {
+    "id": "tiny_ER_0.3_8_0",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 1207720666,
+    "target": 0,
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "graph_sha256": "8393220864b3a7f5ce42a798a8c3ce0bf7ed41caa4d2079d0f53732a77ac6cc7",
+    "optimum": 0.5238095238095238,
+    "optimal_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "combinations": 190,
+    "greedy": {
+      "initial": 0.2857142857142857,
+      "final": 0.5238095238095238,
+      "gain": 0.23809523809523814,
+      "relative": 0.8333333333333335,
+      "edges": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.4523809523809524,
+        0.5238095238095238
+      ],
+      "bc_calls": 42,
+      "seconds": 0.014639799992437474
+    },
+    "incident": {
+      "initial": 0.2857142857142857,
+      "final": 0.5238095238095238,
+      "gain": 0.23809523809523814,
+      "relative": 0.8333333333333335,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.4523809523809524,
+        0.5238095238095238
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.03551080003671814,
+      "audit_seconds": 0.425960699969437,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_1",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 2794134749,
+    "target": 4,
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "b9ad8905558351e66264ce0651fd6c9a8fa681834ea14c554bf8d3dc45dc8db6",
+    "optimum": 0.20634920634920634,
+    "optimal_edges": [
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "combinations": 153,
+    "greedy": {
+      "initial": 0.03968253968253968,
+      "final": 0.20634920634920634,
+      "gain": 0.16666666666666666,
+      "relative": 4.2,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "curve": [
+        0.03968253968253968,
+        0.13492063492063494,
+        0.20634920634920634
+      ],
+      "bc_calls": 38,
+      "seconds": 0.00035010000283364207
+    },
+    "incident": {
+      "initial": 0.03968253968253968,
+      "final": 0.20634920634920634,
+      "gain": 0.16666666666666666,
+      "relative": 4.2,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "curve": [
+        0.03968253968253968,
+        0.13492063492063494,
+        0.20634920634920634
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00025759998243302107,
+      "audit_seconds": 3.7300007534213364e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_2",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 1729027855,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "graph_sha256": "a948ea3b8c8355e1c19acc29a5c8e4572c5b039ac6eb3ee4c96d6de01acb3468",
+    "optimum": 0.21428571428571427,
+    "optimal_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "combinations": 153,
+    "greedy": {
+      "initial": 0.047619047619047616,
+      "final": 0.21428571428571427,
+      "gain": 0.16666666666666666,
+      "relative": 3.5,
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "curve": [
+        0.047619047619047616,
+        0.14285714285714285,
+        0.21428571428571427
+      ],
+      "bc_calls": 38,
+      "seconds": 0.00033039999834727496
+    },
+    "incident": {
+      "initial": 0.047619047619047616,
+      "final": 0.21428571428571427,
+      "gain": 0.16666666666666666,
+      "relative": 3.5,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "curve": [
+        0.047619047619047616,
+        0.14285714285714285,
+        0.21428571428571427
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00023310001415666193,
+      "audit_seconds": 3.439998545218259e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_3",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 3604882707,
+    "target": 1,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "graph_sha256": "0f663f3b142804ca95aef1f1171de123a13156035972fb4969d0039c053ceb24",
+    "optimum": 0.2857142857142857,
+    "optimal_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "combinations": 171,
+    "greedy": {
+      "initial": 0.09523809523809523,
+      "final": 0.2857142857142857,
+      "gain": 0.19047619047619047,
+      "relative": 2.0,
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "curve": [
+        0.09523809523809523,
+        0.21428571428571427,
+        0.2857142857142857
+      ],
+      "bc_calls": 40,
+      "seconds": 0.0003404999879421666
+    },
+    "incident": {
+      "initial": 0.09523809523809523,
+      "final": 0.2857142857142857,
+      "gain": 0.19047619047619047,
+      "relative": 2.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "curve": [
+        0.09523809523809523,
+        0.21428571428571427,
+        0.2857142857142857
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00021570001263171434,
+      "audit_seconds": 3.29999893438071e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_4",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 3866224493,
+    "target": 6,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "87553747311173febf643422a51958ceb36f82173f2a8168f79f96af8678f8dc",
+    "optimum": 0.5317460317460317,
+    "optimal_edges": [
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "combinations": 190,
+    "greedy": {
+      "initial": 0.2857142857142857,
+      "final": 0.5238095238095238,
+      "gain": 0.23809523809523814,
+      "relative": 0.8333333333333335,
+      "edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.5,
+        0.5238095238095238
+      ],
+      "bc_calls": 42,
+      "seconds": 0.00033009999606292695
+    },
+    "incident": {
+      "initial": 0.2857142857142857,
+      "final": 0.5238095238095238,
+      "gain": 0.23809523809523814,
+      "relative": 0.8333333333333335,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.5,
+        0.5238095238095238
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020659998699557036,
+      "audit_seconds": 3.1800009310245514e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_5",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 3491455381,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "graph_sha256": "f9f2cae2e5089f6fc47be08afa6e07b123a0327a270513a1de63db9537472dcb",
+    "optimum": 0.16666666666666666,
+    "optimal_edges": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "combinations": 153,
+    "greedy": {
+      "initial": 0.055555555555555546,
+      "final": 0.16666666666666666,
+      "gain": 0.1111111111111111,
+      "relative": 2.0000000000000004,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "curve": [
+        0.055555555555555546,
+        0.11904761904761904,
+        0.16666666666666666
+      ],
+      "bc_calls": 38,
+      "seconds": 0.0003228999994462356
+    },
+    "incident": {
+      "initial": 0.055555555555555546,
+      "final": 0.16666666666666666,
+      "gain": 0.1111111111111111,
+      "relative": 2.0000000000000004,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "curve": [
+        0.055555555555555546,
+        0.11904761904761904,
+        0.16666666666666666
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0002038999809883535,
+      "audit_seconds": 3.3500007702969015e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_6",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 351275566,
+    "target": 6,
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "9cf517b0e87bac3e14f3b3cb3b62e3eca7399c18abf23391b84368e4a32f7d2c",
+    "optimum": 0.21428571428571427,
+    "optimal_edges": [
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "combinations": 136,
+    "greedy": {
+      "initial": 0.03571428571428571,
+      "final": 0.21428571428571427,
+      "gain": 0.17857142857142855,
+      "relative": 5.0,
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "curve": [
+        0.03571428571428571,
+        0.15476190476190477,
+        0.21428571428571427
+      ],
+      "bc_calls": 36,
+      "seconds": 0.00031999999191612005
+    },
+    "incident": {
+      "initial": 0.03571428571428571,
+      "final": 0.21428571428571427,
+      "gain": 0.17857142857142855,
+      "relative": 5.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "curve": [
+        0.03571428571428571,
+        0.15476190476190477,
+        0.21428571428571427
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0002040999970631674,
+      "audit_seconds": 3.409999771974981e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_7",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 3218631256,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "graph_sha256": "02630c467409349504cde89b49491d7c71f79083fe9fe15b288719dde37481fc",
+    "optimum": 0.30158730158730157,
+    "optimal_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "combinations": 171,
+    "greedy": {
+      "initial": 0.023809523809523808,
+      "final": 0.30158730158730157,
+      "gain": 0.2777777777777778,
+      "relative": 11.666666666666668,
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.23015873015873015,
+        0.30158730158730157
+      ],
+      "bc_calls": 40,
+      "seconds": 0.00032330000249203295
+    },
+    "incident": {
+      "initial": 0.023809523809523808,
+      "final": 0.30158730158730157,
+      "gain": 0.2777777777777778,
+      "relative": 11.666666666666668,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.23015873015873015,
+        0.30158730158730157
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020069998572580516,
+      "audit_seconds": 3.2800016924738884e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_8",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 1227076202,
+    "target": 0,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "graph_sha256": "daa030d9c1f45d22b5745a1bf1c179d4074a95f3bbbdee2a706474613d2cdf7a",
+    "optimum": 0.24603174603174605,
+    "optimal_edges": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "combinations": 153,
+    "greedy": {
+      "initial": 0.031746031746031744,
+      "final": 0.23015873015873015,
+      "gain": 0.1984126984126984,
+      "relative": 6.25,
+      "edges": [
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "curve": [
+        0.031746031746031744,
+        0.1349206349206349,
+        0.23015873015873015
+      ],
+      "bc_calls": 38,
+      "seconds": 0.00031119999766815454
+    },
+    "incident": {
+      "initial": 0.031746031746031744,
+      "final": 0.23015873015873015,
+      "gain": 0.1984126984126984,
+      "relative": 6.25,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "curve": [
+        0.031746031746031744,
+        0.1349206349206349,
+        0.23015873015873015
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019890000112354755,
+      "audit_seconds": 3.409999771974981e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_9",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 2175747709,
+    "target": 1,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "639a862f9e1d8a6afb7e9e1573ad0a881816c9a02af20a520c046531025e541f",
+    "optimum": 0.1706349206349206,
+    "optimal_edges": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "combinations": 105,
+    "greedy": {
+      "initial": 0.011904761904761904,
+      "final": 0.1706349206349206,
+      "gain": 0.15873015873015872,
+      "relative": 13.333333333333334,
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.011904761904761904,
+        0.09920634920634919,
+        0.1706349206349206
+      ],
+      "bc_calls": 32,
+      "seconds": 0.0003012000088347122
+    },
+    "incident": {
+      "initial": 0.011904761904761904,
+      "final": 0.1706349206349206,
+      "gain": 0.15873015873015872,
+      "relative": 13.333333333333334,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.011904761904761904,
+        0.09920634920634919,
+        0.1706349206349206
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019350000366102904,
+      "audit_seconds": 3.37999954354018e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_10",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 4056123067,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "4b021b17b4f06670986f684e2243f846d7601b73f71b86133c37492856a76884",
+    "optimum": 0.16666666666666666,
+    "optimal_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "combinations": 136,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.16666666666666666,
+      "gain": 0.15079365079365079,
+      "relative": 9.5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.11111111111111109,
+        0.16666666666666666
+      ],
+      "bc_calls": 36,
+      "seconds": 0.00032649999775458127
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": 0.16666666666666666,
+      "gain": 0.15079365079365079,
+      "relative": 9.5,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.11111111111111109,
+        0.16666666666666666
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020090000180061907,
+      "audit_seconds": 3.229999856557697e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_11",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 2355599844,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "graph_sha256": "d3644d1e126a1eda8bb6a95a6d5f645d0d5b036972dd48055adaa601f9332002",
+    "optimum": 0.2619047619047619,
+    "optimal_edges": [
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "combinations": 153,
+    "greedy": {
+      "initial": 0.047619047619047616,
+      "final": 0.24603174603174605,
+      "gain": 0.19841269841269843,
+      "relative": 4.166666666666667,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "curve": [
+        0.047619047619047616,
+        0.19047619047619047,
+        0.24603174603174605
+      ],
+      "bc_calls": 38,
+      "seconds": 0.0003375000087544322
+    },
+    "incident": {
+      "initial": 0.047619047619047616,
+      "final": 0.24603174603174605,
+      "gain": 0.19841269841269843,
+      "relative": 4.166666666666667,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "curve": [
+        0.047619047619047616,
+        0.19047619047619047,
+        0.24603174603174605
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00021490002109203488,
+      "audit_seconds": 3.169997944496572e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_12",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 735719428,
+    "target": 7,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "graph_sha256": "1b4a96644301807416d13679795fc2cebf5319991d0f1bbf3038b1d43a8e63a1",
+    "optimum": 0.0873015873015873,
+    "optimal_edges": [
+      [
+        1,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "combinations": 91,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.0873015873015873,
+      "gain": 0.07142857142857142,
+      "relative": 4.5,
+      "edges": [
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.055555555555555546,
+        0.0873015873015873
+      ],
+      "bc_calls": 30,
+      "seconds": 0.00030280000646598637
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": 0.0873015873015873,
+      "gain": 0.07142857142857142,
+      "relative": 4.5,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.055555555555555546,
+        0.0873015873015873
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020440001389943063,
+      "audit_seconds": 3.440000000409782e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_13",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 1451378956,
+    "target": 4,
+    "edges": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "944ae3384aa540c56ec2c1c99eb3baff6371fc44516a7117849a2d85dbd71a56",
+    "optimum": 0.47619047619047616,
+    "optimal_edges": [
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "combinations": 171,
+    "greedy": {
+      "initial": 0.2857142857142857,
+      "final": 0.47619047619047616,
+      "gain": 0.19047619047619047,
+      "relative": 0.6666666666666666,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.38095238095238093,
+        0.47619047619047616
+      ],
+      "bc_calls": 40,
+      "seconds": 0.00031380000291392207
+    },
+    "incident": {
+      "initial": 0.2857142857142857,
+      "final": 0.47619047619047616,
+      "gain": 0.19047619047619047,
+      "relative": 0.6666666666666666,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.38095238095238093,
+        0.47619047619047616
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020610002684406936,
+      "audit_seconds": 3.3599979360587895e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_14",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 2960634452,
+    "target": 4,
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "graph_sha256": "6d9aa53db16bf7d491e71129f690655e410356637b42b2ea0d305a5522cc0454",
+    "optimum": 0.5,
+    "optimal_edges": [
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "combinations": 210,
+    "greedy": {
+      "initial": 0.2857142857142857,
+      "final": 0.5,
+      "gain": 0.2142857142857143,
+      "relative": 0.7500000000000001,
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.42857142857142855,
+        0.5
+      ],
+      "bc_calls": 44,
+      "seconds": 0.00033090000215452164
+    },
+    "incident": {
+      "initial": 0.2857142857142857,
+      "final": 0.5,
+      "gain": 0.2142857142857143,
+      "relative": 0.7500000000000001,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.42857142857142855,
+        0.5
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019970002176705748,
+      "audit_seconds": 3.209998249076307e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_15",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 2278887823,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "41667ba26503a4eb1fe4239da6ebd739e6a8f73c410d65982371f94386fa26e9",
+    "optimum": 0.15079365079365076,
+    "optimal_edges": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "combinations": 105,
+    "greedy": {
+      "initial": 0.03968253968253968,
+      "final": 0.15079365079365076,
+      "gain": 0.11111111111111108,
+      "relative": 2.7999999999999994,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.03968253968253968,
+        0.0873015873015873,
+        0.15079365079365076
+      ],
+      "bc_calls": 32,
+      "seconds": 0.00028140000358689576
+    },
+    "incident": {
+      "initial": 0.03968253968253968,
+      "final": 0.15079365079365076,
+      "gain": 0.11111111111111108,
+      "relative": 2.7999999999999994,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.03968253968253968,
+        0.0873015873015873,
+        0.15079365079365076
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019250002515036613,
+      "audit_seconds": 3.489997470751405e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_16",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 3848508678,
+    "target": 1,
+    "edges": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "9130779c1f34165023f1286439616234b367eb69e351780af8549a7e088402d1",
+    "optimum": 0.5476190476190477,
+    "optimal_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "combinations": 190,
+    "greedy": {
+      "initial": 0.2857142857142857,
+      "final": 0.5476190476190477,
+      "gain": 0.261904761904762,
+      "relative": 0.916666666666667,
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.47619047619047616,
+        0.5476190476190477
+      ],
+      "bc_calls": 42,
+      "seconds": 0.00034749999758787453
+    },
+    "incident": {
+      "initial": 0.2857142857142857,
+      "final": 0.5476190476190477,
+      "gain": 0.261904761904762,
+      "relative": 0.916666666666667,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "curve": [
+        0.2857142857142857,
+        0.47619047619047616,
+        0.5476190476190477
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019139997311867774,
+      "audit_seconds": 3.500001912470907e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_17",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 1964416673,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "d7dfc5a48678d4f1024c57061d5e5f9b4e0f31df298349a1a457ff3036443962",
+    "optimum": 0.18253968253968253,
+    "optimal_edges": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "combinations": 105,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.18253968253968253,
+      "gain": 0.16666666666666666,
+      "relative": 10.5,
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.11111111111111109,
+        0.18253968253968253
+      ],
+      "bc_calls": 32,
+      "seconds": 0.00030450000485870987
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": 0.18253968253968253,
+      "gain": 0.16666666666666666,
+      "relative": 10.5,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.11111111111111109,
+        0.18253968253968253
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019330000213813037,
+      "audit_seconds": 3.359999391250312e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_18",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 1927011436,
+    "target": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "graph_sha256": "56ecbcd6ed57afc3caee31491cd67cbbdc00ebe64813bc0223549e25717dfa46",
+    "optimum": 0.21428571428571427,
+    "optimal_edges": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.023809523809523808,
+      "final": 0.21428571428571427,
+      "gain": 0.19047619047619047,
+      "relative": 8.0,
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.15079365079365079,
+        0.21428571428571427
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00031550000130664557
+    },
+    "incident": {
+      "initial": 0.023809523809523808,
+      "final": 0.21428571428571427,
+      "gain": 0.19047619047619047,
+      "relative": 8.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.15079365079365079,
+        0.21428571428571427
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019640001119114459,
+      "audit_seconds": 3.2899988582357764e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_ER_0.3_8_19",
+    "split": "tiny",
+    "family": "ER",
+    "param": 0.3,
+    "n": 8,
+    "seed": 1671289838,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "f1103477813ae27feb48dd86f16b865c78ffdc89f2faa77df32d48c9635d60d1",
+    "optimum": 0.14285714285714285,
+    "optimal_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "combinations": 105,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.14285714285714285,
+      "gain": 0.12698412698412698,
+      "relative": 8.0,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.09523809523809523,
+        0.14285714285714285
+      ],
+      "bc_calls": 32,
+      "seconds": 0.00030249998962972313
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": 0.14285714285714285,
+      "gain": 0.12698412698412698,
+      "relative": 8.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.09523809523809523,
+        0.14285714285714285
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0001914000022225082,
+      "audit_seconds": 3.619999915827066e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_0",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 341707714,
+    "target": 1,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "graph_sha256": "a0d04ae2cb3cced23b71255c44d05ad68c96bc4c6357adc9e1f9f8cda72595bb",
+    "optimum": 0.1349206349206349,
+    "optimal_edges": [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.03968253968253968,
+      "final": 0.1349206349206349,
+      "gain": 0.09523809523809523,
+      "relative": 2.4,
+      "edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "curve": [
+        0.03968253968253968,
+        0.07936507936507937,
+        0.1349206349206349
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00030110000807326287
+    },
+    "incident": {
+      "initial": 0.03968253968253968,
+      "final": 0.1349206349206349,
+      "gain": 0.09523809523809523,
+      "relative": 2.4,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "curve": [
+        0.03968253968253968,
+        0.07936507936507937,
+        0.1349206349206349
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0002040999970631674,
+      "audit_seconds": 3.290000313427299e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_1",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 999637778,
+    "target": 7,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "graph_sha256": "58926ca83662b8881bd0052bb8bca3dfefacfcbfa8bc4d9201d4734cc947a4a1",
+    "optimum": 0.16666666666666666,
+    "optimal_edges": [
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.031746031746031744,
+      "final": 0.16666666666666666,
+      "gain": 0.1349206349206349,
+      "relative": 4.25,
+      "edges": [
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "curve": [
+        0.031746031746031744,
+        0.0873015873015873,
+        0.16666666666666666
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0003411000070627779
+    },
+    "incident": {
+      "initial": 0.031746031746031744,
+      "final": 0.16666666666666666,
+      "gain": 0.1349206349206349,
+      "relative": 4.25,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "curve": [
+        0.031746031746031744,
+        0.0873015873015873,
+        0.16666666666666666
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020169999334029853,
+      "audit_seconds": 3.370000922586769e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_2",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 2400716776,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "graph_sha256": "ab79c83d7a2cb0f3fc8eace738bb0d1e751e47676bf8a0e4a67bd92ba2757219",
+    "optimum": 0.18730158730158727,
+    "optimal_edges": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.18730158730158727,
+      "gain": 0.1714285714285714,
+      "relative": 10.799999999999999,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.11111111111111109,
+        0.18730158730158727
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0003218999918317422
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": 0.18730158730158727,
+      "gain": 0.1714285714285714,
+      "relative": 10.799999999999999,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.11111111111111109,
+        0.18730158730158727
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0001917000045068562,
+      "audit_seconds": 3.2199997804127634e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_3",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 3578954216,
+    "target": 1,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "graph_sha256": "3d0b774abb36c2a42e2b13b8580523deee60e79cb660e9273dac2d165a5c2b38",
+    "optimum": 0.1349206349206349,
+    "optimal_edges": [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.023809523809523808,
+      "final": 0.11904761904761904,
+      "gain": 0.09523809523809523,
+      "relative": 4.0,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.07142857142857142,
+        0.11904761904761904
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00031940000189933926
+    },
+    "incident": {
+      "initial": 0.023809523809523808,
+      "final": 0.11904761904761904,
+      "gain": 0.09523809523809523,
+      "relative": 4.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.07142857142857142,
+        0.11904761904761904
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019100001372862607,
+      "audit_seconds": 3.279998782090843e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_4",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 3120440554,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "graph_sha256": "c682a926ed77ce8a92b6bf20a7cc6468b21e963a5d4d30c76648f8dac600c9f7",
+    "optimum": 0.3253968253968254,
+    "optimal_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.16666666666666666,
+      "final": 0.3253968253968254,
+      "gain": 0.15873015873015875,
+      "relative": 0.9523809523809526,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "curve": [
+        0.16666666666666666,
+        0.25396825396825395,
+        0.3253968253968254
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0003468000068096444
+    },
+    "incident": {
+      "initial": 0.16666666666666666,
+      "final": 0.3253968253968254,
+      "gain": 0.15873015873015875,
+      "relative": 0.9523809523809526,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "curve": [
+        0.16666666666666666,
+        0.25396825396825395,
+        0.3253968253968254
+      ],
+      "bc_calls": 8,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00018420000560581684,
+      "audit_seconds": 3.279998782090843e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_5",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 2943414129,
+    "target": 0,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "f80dd4b2d7b069e887d7154ac359f3485159bec3820eeda76c1872d627d9a8d8",
+    "optimum": 0.1492063492063492,
+    "optimal_edges": [
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.03571428571428571,
+      "final": 0.14285714285714285,
+      "gain": 0.10714285714285714,
+      "relative": 3.0,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "curve": [
+        0.03571428571428571,
+        0.08333333333333333,
+        0.14285714285714285
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0003792999923462048
+    },
+    "incident": {
+      "initial": 0.03571428571428571,
+      "final": 0.14285714285714285,
+      "gain": 0.10714285714285714,
+      "relative": 3.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "curve": [
+        0.03571428571428571,
+        0.08333333333333333,
+        0.14285714285714285
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020179999410174787,
+      "audit_seconds": 3.700000524986535e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_6",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 4177506029,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "graph_sha256": "339b3e4dba6d694cd7a74b8ea30ea322cb4bfeda5433cac933e2747a03c2494f",
+    "optimum": 0.21428571428571427,
+    "optimal_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.06349206349206349,
+      "final": 0.21428571428571427,
+      "gain": 0.15079365079365079,
+      "relative": 2.375,
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "curve": [
+        0.06349206349206349,
+        0.1349206349206349,
+        0.21428571428571427
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00033229999826289713
+    },
+    "incident": {
+      "initial": 0.06349206349206349,
+      "final": 0.21428571428571427,
+      "gain": 0.15079365079365079,
+      "relative": 2.375,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "curve": [
+        0.06349206349206349,
+        0.1349206349206349,
+        0.21428571428571427
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00021169998217374086,
+      "audit_seconds": 3.2100011594593525e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_7",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 1875728705,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "graph_sha256": "cba784c51829f0bd209ee44b1a9b68254ca0900937380c899f59b91c9350ce4e",
+    "optimum": 0.16507936507936508,
+    "optimal_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.027777777777777773,
+      "final": 0.1619047619047619,
+      "gain": 0.13412698412698415,
+      "relative": 4.82857142857143,
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "curve": [
+        0.027777777777777773,
+        0.10317460317460317,
+        0.1619047619047619
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00032539998937863857
+    },
+    "incident": {
+      "initial": 0.027777777777777773,
+      "final": 0.1619047619047619,
+      "gain": 0.13412698412698415,
+      "relative": 4.82857142857143,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "curve": [
+        0.027777777777777773,
+        0.10317460317460317,
+        0.1619047619047619
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019550000433810055,
+      "audit_seconds": 3.2500000088475645e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_8",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 49166775,
+    "target": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "0aede33a8c03b399941ae25d9203c36e9fe21a3fea4a5bb2e00705059f5724a8",
+    "optimum": 0.19841269841269837,
+    "optimal_edges": [
+      [
+        1,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.07936507936507936,
+      "final": 0.19841269841269837,
+      "gain": 0.11904761904761901,
+      "relative": 1.4999999999999996,
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "curve": [
+        0.07936507936507936,
+        0.126984126984127,
+        0.19841269841269837
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00033799999800976366
+    },
+    "incident": {
+      "initial": 0.07936507936507936,
+      "final": 0.19841269841269837,
+      "gain": 0.11904761904761901,
+      "relative": 1.4999999999999996,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "curve": [
+        0.07936507936507936,
+        0.126984126984127,
+        0.19841269841269837
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0002111000067088753,
+      "audit_seconds": 4.4899992644786835e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_9",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 2810184420,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "graph_sha256": "253ffa1141ea2d05d4b9d1649a9ad2fc4619f65454cc25478f84a7fa61f6fa92",
+    "optimum": 0.3333333333333333,
+    "optimal_edges": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.23809523809523808,
+      "final": 0.3333333333333333,
+      "gain": 0.09523809523809523,
+      "relative": 0.4,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "curve": [
+        0.23809523809523808,
+        0.35714285714285715,
+        0.3333333333333333
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0002930000046035275
+    },
+    "incident": {
+      "initial": 0.23809523809523808,
+      "final": null,
+      "gain": null,
+      "relative": null,
+      "last_prefix_bc": 0.23809523809523808,
+      "edges": [],
+      "curve": [
+        0.23809523809523808
+      ],
+      "steps_used": 0,
+      "budget_requested": 2,
+      "feasible_exact_budget": false,
+      "status": "infeasible_exact_budget",
+      "available_actions": 1,
+      "bc_calls": 1,
+      "brandes_calls": 1,
+      "apsp_builds": 0,
+      "seconds": 3.2199997804127634e-05,
+      "audit_seconds": 1.650000922381878e-05
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_10",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 2885273129,
+    "target": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "2c94baa4f7ed423df3731184997cc5aeff0b77ed2248f47d65939633521b651a",
+    "optimum": 0.16666666666666666,
+    "optimal_edges": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.031746031746031744,
+      "final": 0.16666666666666666,
+      "gain": 0.1349206349206349,
+      "relative": 4.25,
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.031746031746031744,
+        0.11904761904761904,
+        0.16666666666666666
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0003353999927639961
+    },
+    "incident": {
+      "initial": 0.031746031746031744,
+      "final": 0.16666666666666666,
+      "gain": 0.1349206349206349,
+      "relative": 4.25,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.031746031746031744,
+        0.11904761904761904,
+        0.16666666666666666
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019430000975262374,
+      "audit_seconds": 3.54999938281253e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_11",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 1290316077,
+    "target": 7,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "f2ccaa366ae6578cf6dd97c3da32c0de3566c23344b4558d8960a383818869b1",
+    "optimum": 0.18253968253968253,
+    "optimal_edges": [
+      [
+        1,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.18253968253968253,
+      "gain": 0.16666666666666666,
+      "relative": 10.5,
+      "edges": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.1349206349206349,
+        0.18253968253968253
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00031459999445360154
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": 0.18253968253968253,
+      "gain": 0.16666666666666666,
+      "relative": 10.5,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.1349206349206349,
+        0.18253968253968253
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020169999334029853,
+      "audit_seconds": 3.200001083314419e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_12",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 1587277827,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "graph_sha256": "e09def868d4ccd1250bd6819a82fb23220d12686c81746e99af178144f046a9e",
+    "optimum": 0.11904761904761904,
+    "optimal_edges": [
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.023809523809523808,
+      "final": 0.11904761904761904,
+      "gain": 0.09523809523809523,
+      "relative": 4.0,
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.05952380952380952,
+        0.11904761904761904
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00032419999479316175
+    },
+    "incident": {
+      "initial": 0.023809523809523808,
+      "final": 0.11904761904761904,
+      "gain": 0.09523809523809523,
+      "relative": 4.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.05952380952380952,
+        0.11904761904761904
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020319999021012336,
+      "audit_seconds": 3.3200005418621004e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_13",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 2097702887,
+    "target": 7,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "6f7db25897b95fa6e8e20d6878c71a1d0ba4bef5e72edaf73a745f7c3e92e792",
+    "optimum": 0.16666666666666666,
+    "optimal_edges": [
+      [
+        1,
+        7
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.03571428571428571,
+      "final": 0.16666666666666666,
+      "gain": 0.13095238095238093,
+      "relative": 3.666666666666666,
+      "edges": [
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "curve": [
+        0.03571428571428571,
+        0.10714285714285714,
+        0.16666666666666666
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0003188999980920926
+    },
+    "incident": {
+      "initial": 0.03571428571428571,
+      "final": 0.16666666666666666,
+      "gain": 0.13095238095238093,
+      "relative": 3.666666666666666,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "curve": [
+        0.03571428571428571,
+        0.10714285714285714,
+        0.16666666666666666
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020369997946545482,
+      "audit_seconds": 3.190001007169485e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_14",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 290727871,
+    "target": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "graph_sha256": "05a78ffe6f5c7c3be8be895e022236a0bd22982b787c0c629a5bd43216b618d7",
+    "optimum": 0.22222222222222224,
+    "optimal_edges": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.055555555555555546,
+      "final": 0.22222222222222224,
+      "gain": 0.16666666666666669,
+      "relative": 3.000000000000001,
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "curve": [
+        0.055555555555555546,
+        0.15079365079365076,
+        0.22222222222222224
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0003440000000409782
+    },
+    "incident": {
+      "initial": 0.055555555555555546,
+      "final": 0.22222222222222224,
+      "gain": 0.16666666666666669,
+      "relative": 3.000000000000001,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "curve": [
+        0.055555555555555546,
+        0.15079365079365076,
+        0.22222222222222224
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019099999917671084,
+      "audit_seconds": 3.2100011594593525e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_15",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 3304936543,
+    "target": 7,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "151f06e54935688b58a7294c4ebce2f8d8128b9d083a9764f861ff1f08d9fec3",
+    "optimum": 0.11904761904761904,
+    "optimal_edges": [
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.11904761904761904,
+      "gain": 0.10317460317460317,
+      "relative": 6.5,
+      "edges": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.06349206349206349,
+        0.11904761904761904
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0004702000005636364
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": 0.11904761904761904,
+      "gain": 0.10317460317460317,
+      "relative": 6.5,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.06349206349206349,
+        0.11904761904761904
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019910000264644623,
+      "audit_seconds": 3.409999771974981e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_16",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 1379599995,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "ab8749a02593383cdf78ff59193ec199ac3d387210c1ef4f3c04f4e72112540a",
+    "optimum": 0.20634920634920637,
+    "optimal_edges": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.023809523809523808,
+      "final": 0.20634920634920637,
+      "gain": 0.18253968253968256,
+      "relative": 7.666666666666668,
+      "edges": [
+        [
+          3,
+          7
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.15873015873015872,
+        0.20634920634920637
+      ],
+      "bc_calls": 34,
+      "seconds": 0.0005247999943094328
+    },
+    "incident": {
+      "initial": 0.023809523809523808,
+      "final": 0.20634920634920637,
+      "gain": 0.18253968253968256,
+      "relative": 7.666666666666668,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          7
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.15873015873015872,
+        0.20634920634920637
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00018939998699352145,
+      "audit_seconds": 3.310000465717167e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_17",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 3954262962,
+    "target": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "63c7b1a6f9b37850732bdd8ff4fe487cc0fd329f8d67b1a1b24ba3d9906b046f",
+    "optimum": 0.123015873015873,
+    "optimal_edges": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.023809523809523808,
+      "final": 0.123015873015873,
+      "gain": 0.09920634920634919,
+      "relative": 4.166666666666666,
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.06349206349206349,
+        0.123015873015873
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00032359999022446573
+    },
+    "incident": {
+      "initial": 0.023809523809523808,
+      "final": 0.123015873015873,
+      "gain": 0.09920634920634919,
+      "relative": 4.166666666666666,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "curve": [
+        0.023809523809523808,
+        0.06349206349206349,
+        0.123015873015873
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00020239998411852866,
+      "audit_seconds": 3.410001227166504e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_18",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 1984069898,
+    "target": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "graph_sha256": "bcf2d262a82b356fd96347078ee23b894160b0b02f3136eae33ad6afda2dd76e",
+    "optimum": 0.14285714285714285,
+    "optimal_edges": [
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.03968253968253968,
+      "final": 0.14285714285714285,
+      "gain": 0.10317460317460317,
+      "relative": 2.6,
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "curve": [
+        0.03968253968253968,
+        0.0873015873015873,
+        0.14285714285714285
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00032700000156182796
+    },
+    "incident": {
+      "initial": 0.03968253968253968,
+      "final": 0.14285714285714285,
+      "gain": 0.10317460317460317,
+      "relative": 2.6,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "curve": [
+        0.03968253968253968,
+        0.0873015873015873,
+        0.14285714285714285
+      ],
+      "bc_calls": 12,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0002052000054391101,
+      "audit_seconds": 3.239999932702631e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_BA_2_8_19",
+    "split": "tiny",
+    "family": "BA",
+    "param": 2,
+    "n": 8,
+    "seed": 3018698343,
+    "target": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "graph_sha256": "9af7af24129d7c30e6502aecda06ea10e956c6b111fe8c70851d8bf165a008e6",
+    "optimum": 0.17460317460317462,
+    "optimal_edges": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "combinations": 120,
+    "greedy": {
+      "initial": 0.07142857142857142,
+      "final": 0.17460317460317462,
+      "gain": 0.1031746031746032,
+      "relative": 1.4444444444444449,
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.07142857142857142,
+        0.12698412698412698,
+        0.17460317460317462
+      ],
+      "bc_calls": 34,
+      "seconds": 0.00033480000274721533
+    },
+    "incident": {
+      "initial": 0.07142857142857142,
+      "final": 0.17460317460317462,
+      "gain": 0.1031746031746032,
+      "relative": 1.4444444444444449,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.07142857142857142,
+        0.12698412698412698,
+        0.17460317460317462
+      ],
+      "bc_calls": 10,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00019200002134311944,
+      "audit_seconds": 3.239998477511108e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_0",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 765096716,
+    "target": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "9606b36dba0e5f603e9285488b4c91ae3ced1d23e3bf168c9b186bf54991457d",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        0,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00019780000729952008
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00018560001626610756,
+      "audit_seconds": 3.559998003765941e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_1",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 3344727363,
+    "target": 1,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "b5c2469bdbde6af317a4909207479b98e2520c433ac5e17f818178bf232faf64",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.0002658999874256551
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0001782000035746023,
+      "audit_seconds": 3.2199997804127634e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_2",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 4040491174,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "cc65f644855ca6b1375c3083ca5e9ca449eeea1ae8d7056499666f9e3f3ae27c",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00020519999088719487
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00017880000814329833,
+      "audit_seconds": 3.229999856557697e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_3",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 3876702104,
+    "target": 1,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "51fda16261e6b974af1f092fca01cab892cba13ab101da7537f0acd759326866",
+    "optimum": 0.01904761904761905,
+    "optimal_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.009523809523809525,
+      "final": 0.01904761904761905,
+      "gain": 0.009523809523809525,
+      "relative": 1.0,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "curve": [
+        0.009523809523809525,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 10,
+      "seconds": 0.0001748999929986894
+    },
+    "incident": {
+      "initial": 0.009523809523809525,
+      "final": 0.01904761904761905,
+      "gain": 0.009523809523809525,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "curve": [
+        0.009523809523809525,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00018289999570697546,
+      "audit_seconds": 3.2500000088475645e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_4",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 873393858,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "f83183169e105a6093d28538179c72bf9d440a3ef73cf9d26afce4e0b1fcfd80",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.0002555000100983307
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00018299998191650957,
+      "audit_seconds": 3.360000846441835e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_5",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 3109131661,
+    "target": 1,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "b8c7bba0b46a67f750f957e42cce672a5e27aaddc7b1757332bfc95e13f9ba66",
+    "optimum": 0.01904761904761905,
+    "optimal_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.009523809523809525,
+      "final": 0.01904761904761905,
+      "gain": 0.009523809523809525,
+      "relative": 1.0,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.009523809523809525,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 10,
+      "seconds": 0.0001897000038297847
+    },
+    "incident": {
+      "initial": 0.009523809523809525,
+      "final": 0.01904761904761905,
+      "gain": 0.009523809523809525,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.009523809523809525,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00018279996584169567,
+      "audit_seconds": 3.400002606213093e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_6",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 3014242481,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "9f438172526fe1197c56294241063a5b6623b632fef5ade2bb4e0e8933bcbeed",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00017699999443721026
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0002859999949578196,
+      "audit_seconds": 7.090000144671649e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_7",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 910706420,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "4418ef466c1f1e1e9957d03689b2f6b5f874a71ad12f2fecdb75109b871cafd9",
+    "optimum": 0.01904761904761905,
+    "optimal_edges": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.01904761904761905,
+      "final": 0.01904761904761905,
+      "gain": 0.0,
+      "relative": 0.0,
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.01904761904761905,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00018089999502990395
+    },
+    "incident": {
+      "initial": 0.01904761904761905,
+      "final": 0.01904761904761905,
+      "gain": 0.0,
+      "relative": 0.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.01904761904761905,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00023879999935161322,
+      "audit_seconds": 3.6600002204068005e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_8",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 3212720945,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "b09c4bf20c9ed75f3c6b38bcb027fcd066ecb8bb2a83f37fb6082c76dc943600",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          3,
+          7
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00019639999663922936
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          7
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00018440000712871552,
+      "audit_seconds": 3.519999154377729e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_9",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 587800124,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "12f61e98c968172e06c963ea57f4399f8218307901431dbf6939c8ec1d8ea958",
+    "optimum": 0.01904761904761905,
+    "optimal_edges": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.009523809523809525,
+      "final": 0.01904761904761905,
+      "gain": 0.009523809523809525,
+      "relative": 1.0,
+      "edges": [
+        [
+          3,
+          7
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "curve": [
+        0.009523809523809525,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00017520000983495265
+    },
+    "incident": {
+      "initial": 0.009523809523809525,
+      "final": 0.01904761904761905,
+      "gain": 0.009523809523809525,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          3,
+          7
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "curve": [
+        0.009523809523809525,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00017780001508072019,
+      "audit_seconds": 3.29999893438071e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_10",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 1955598504,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "495c3eb8033cf531c98853da942b26370249591c14c09f44336a7512698599a0",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.015873015873015872,
+      "gain": 0.0,
+      "relative": 0.0,
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.023809523809523808,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00017800000205170363
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": null,
+      "gain": null,
+      "relative": null,
+      "last_prefix_bc": 0.015873015873015872,
+      "edges": [],
+      "curve": [
+        0.015873015873015872
+      ],
+      "steps_used": 0,
+      "budget_requested": 2,
+      "feasible_exact_budget": false,
+      "status": "infeasible_exact_budget",
+      "available_actions": 1,
+      "bc_calls": 1,
+      "brandes_calls": 1,
+      "apsp_builds": 0,
+      "seconds": 3.3499993151053786e-05,
+      "audit_seconds": 1.060000795405358e-05
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_11",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 4249512704,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "6c676a76b2f5337b801bb93215f14977553480959b018423c1b53fbecbade0cd",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.015873015873015872,
+      "gain": 0.0,
+      "relative": 0.0,
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.023809523809523808,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00016939999477472156
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": null,
+      "gain": null,
+      "relative": null,
+      "last_prefix_bc": 0.015873015873015872,
+      "edges": [],
+      "curve": [
+        0.015873015873015872
+      ],
+      "steps_used": 0,
+      "budget_requested": 2,
+      "feasible_exact_budget": false,
+      "status": "infeasible_exact_budget",
+      "available_actions": 1,
+      "bc_calls": 1,
+      "brandes_calls": 1,
+      "apsp_builds": 0,
+      "seconds": 2.680000034160912e-05,
+      "audit_seconds": 1.1399999493733048e-05
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_12",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 3459604114,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "3b23e23f10fdd27a61004b83b393acf9833d5465de2e1ba2800c30e24ab6935b",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00018740000086836517
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00017210001533385366,
+      "audit_seconds": 3.279998782090843e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_13",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 794602306,
+    "target": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "262bd04f263fb35b02bcb8938a29f493dda763cf4f05015ef8e952579848b5ba",
+    "optimum": 0.01904761904761905,
+    "optimal_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.009523809523809525,
+      "final": 0.01904761904761905,
+      "gain": 0.009523809523809525,
+      "relative": 1.0,
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "curve": [
+        0.009523809523809525,
+        0.030952380952380953,
+        0.01904761904761905
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00017640000442042947
+    },
+    "incident": {
+      "initial": 0.009523809523809525,
+      "final": null,
+      "gain": null,
+      "relative": null,
+      "last_prefix_bc": 0.009523809523809525,
+      "edges": [],
+      "curve": [
+        0.009523809523809525
+      ],
+      "steps_used": 0,
+      "budget_requested": 2,
+      "feasible_exact_budget": false,
+      "status": "infeasible_exact_budget",
+      "available_actions": 1,
+      "bc_calls": 1,
+      "brandes_calls": 1,
+      "apsp_builds": 0,
+      "seconds": 2.8299997211433947e-05,
+      "audit_seconds": 1.0700008715502918e-05
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_14",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 861820116,
+    "target": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "6503a80dda82a5165ad9be1dea770b7206812fcd4808585680fafcba5a6c487a",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.0001799000019673258
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00017300000763498247,
+      "audit_seconds": 3.309999010525644e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_15",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 3739023930,
+    "target": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "91cc4e1cf8d718804410e038b06283eb64f122cbaa56fabb24b13426a9c5eac5",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.015873015873015872,
+      "final": 0.015873015873015872,
+      "gain": 0.0,
+      "relative": 0.0,
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "curve": [
+        0.015873015873015872,
+        0.023809523809523808,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00017699999443721026
+    },
+    "incident": {
+      "initial": 0.015873015873015872,
+      "final": null,
+      "gain": null,
+      "relative": null,
+      "last_prefix_bc": 0.015873015873015872,
+      "edges": [],
+      "curve": [
+        0.015873015873015872
+      ],
+      "steps_used": 0,
+      "budget_requested": 2,
+      "feasible_exact_budget": false,
+      "status": "infeasible_exact_budget",
+      "available_actions": 1,
+      "bc_calls": 1,
+      "brandes_calls": 1,
+      "apsp_builds": 0,
+      "seconds": 2.7300018700771034e-05,
+      "audit_seconds": 1.0599993402138352e-05
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_16",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 3136394198,
+    "target": 1,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "8d0fa053811af026ef5adc6bbfa5df7027faad5f9d70b20171840d3c52c71277",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00018030000501312315
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.0001711000077193603,
+      "audit_seconds": 3.29999893438071e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_17",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 2278384941,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "7247526b95dfc3d390511e399a171bc4a46488119ea9f2d56a4db5059e5d770f",
+    "optimum": 0.01904761904761905,
+    "optimal_edges": [
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.009523809523809525,
+      "final": 0.01904761904761905,
+      "gain": 0.009523809523809525,
+      "relative": 1.0,
+      "edges": [
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.009523809523809525,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00019970000721514225
+    },
+    "incident": {
+      "initial": 0.009523809523809525,
+      "final": 0.01904761904761905,
+      "gain": 0.009523809523809525,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "curve": [
+        0.009523809523809525,
+        0.01904761904761905,
+        0.01904761904761905
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00017880002269521356,
+      "audit_seconds": 3.279998782090843e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_18",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 3115967828,
+    "target": 7,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "graph_sha256": "6d330e0787969aa4aa07fa39614481701d84afc230064686f92d2388af8dc44f",
+    "optimum": 0.015873015873015872,
+    "optimal_edges": [
+      [
+        0,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "edges": [
+        [
+          0,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00018429999181535095
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": 0.015873015873015872,
+      "gain": 0.007936507936507936,
+      "relative": 1.0,
+      "steps_used": 2,
+      "budget_requested": 2,
+      "feasible_exact_budget": true,
+      "status": "complete",
+      "edges": [
+        [
+          0,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.015873015873015872,
+        0.015873015873015872
+      ],
+      "bc_calls": 6,
+      "oracle_backend": "exact insertion counts v1; tie tolerance 1e-12",
+      "brandes_calls": 3,
+      "apsp_builds": 2,
+      "seconds": 0.00017330000991933048,
+      "audit_seconds": 3.259998629800975e-05,
+      "timing_scope": "decisions excluding initial/trajectory audit BC"
+    }
+  },
+  {
+    "id": "tiny_WS_0.2_8_19",
+    "split": "tiny",
+    "family": "WS",
+    "param": 0.2,
+    "n": 8,
+    "seed": 107959993,
+    "target": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "graph_sha256": "9ba9823896abf37f0c95582421a63918338890955818a0e5ab650591255d09d3",
+    "optimum": 0.01904761904761905,
+    "optimal_edges": [
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "combinations": 6,
+    "greedy": {
+      "initial": 0.007936507936507936,
+      "final": 0.01904761904761905,
+      "gain": 0.011111111111111113,
+      "relative": 1.4000000000000004,
+      "edges": [
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "curve": [
+        0.007936507936507936,
+        0.026984126984126982,
+        0.01904761904761905
+      ],
+      "bc_calls": 10,
+      "seconds": 0.00021109999215696007
+    },
+    "incident": {
+      "initial": 0.007936507936507936,
+      "final": null,
+      "gain": null,
+      "relative": null,
+      "last_prefix_bc": 0.007936507936507936,
+      "edges": [],
+      "curve": [
+        0.007936507936507936
+      ],
+      "steps_used": 0,
+      "budget_requested": 2,
+      "feasible_exact_budget": false,
+      "status": "infeasible_exact_budget",
+      "available_actions": 1,
+      "bc_calls": 1,
+      "brandes_calls": 1,
+      "apsp_builds": 0,
+      "seconds": 2.7900008717551827e-05,
+      "audit_seconds": 1.0399991879239678e-05
+    }
+  }
+]

@@ -1,0 +1,95 @@
+\section{Incident-sampled controls and matched timing}
+This follow-up was specified after the initial evaluation. It retains all 15 checkpoints without further tuning. Each incident-sampled baseline has five random seeds (101, 202, 303, 404, 505) on 240 synthetic and 30 real instances: 2,700 added quality outcomes. The timing set contains 45 new graphs (five per family and size 50, 100, 256), with three repetitions, one thread, and model seed 11. Technical repetitions do not increase the number of independent graphs.
+
+Sampling within the incident action set changes the comparison. Incident SG20 reaches 0.0817, 0.0669, 0.2728 mean final BC on ER, BA, and WS. Incident SG100 evaluates every incident candidate when $n\le100$ and therefore reproduces Incident Greedy on this test set. These controls distinguish a limited search budget from spending that budget on a much larger action space.
+
+The pooled optimum rate hides ER/BA/WS rates of 22\%, 22\%, and 95\%. On the six instances where Full Greedy is suboptimal, the main policy beats greedy and reaches the optimum in only 1/30 seed--graph outcomes. Six tiny instances cannot accommodate two incident additions; the artifact now marks Incident Greedy infeasible there and reports no fixed-budget final score.
+
+Table~\ref{tab:timing} pairs quality and time on identical graphs; the main manuscript figure shows the BA-256 tradeoff. Incident SG20 obtains BC 0.0259 in 0.0873\,s. Incident Greedy obtains BC 0.0409 in 0.9950\,s. RL-BCM obtains BC 0.0119 in 0.2919\,s. No BC obtains BC 0.0144 in 0.2823\,s. A latency saving is useful only if the associated quality is acceptable. The five main-model training runs cost 37.1 cumulative process-minutes (101.7 for all 15 runs), including validation; overlapping processes prevent interpreting these sums as wall-clock duration. Using seed 11's 456.1\,s training duration and the BA-100 median saving over Incident Greedy gives an illustrative break-even of 35,980 uses, before accounting for unequal quality. This is a conditional calculation, not a universal deployment threshold.
+
+The incident candidate generator directly lists target non-neighbors in lexicographic order. It avoids constructing all nonedges for incident methods; earlier latency records remain archived and are not pooled with this new benchmark. Infeasible fixed-budget requests return a null final score, a status flag, and the requested/used budget. No unrestricted fallback is silently substituted.
+
+Incident monotonicity follows directly from the path-fraction definition. For endpoints distinct from the target, every new path using an inserted target-incident edge passes through the target. If new shortest paths are shorter, the contribution becomes one; if they tie existing shortest paths, the fraction changes from $a/b$ to $(a+c)/(b+c)$ with $a\le b$; otherwise it is unchanged. Previously disconnected pairs cannot decrease their zero contribution. Summing with a fixed normalization proves nondecrease, not global optimality of an incident restriction.
+
+\begin{longtable}{llrrr}\toprule Family & Method & $n$ & Mean final BC & Median seconds\\\midrule\endhead
+ER & Degree & 50 & 0.052788 & 0.000640\\
+ER & Full Greedy & 50 & 0.105747 & 0.162499\\
+ER & Incident Greedy & 50 & 0.105747 & 0.007190\\
+ER & Global SG20 & 50 & 0.049844 & 0.003936\\
+ER & Incident SG100 & 50 & 0.105747 & 0.007396\\
+ER & Incident SG20 & 50 & 0.103086 & 0.003845\\
+ER & RL-BCM & 50 & 0.100877 & 0.009666\\
+ER & Myopic & 50 & 0.103485 & 0.009658\\
+ER & No BC & 50 & 0.100047 & 0.008851\\
+ER & Degree & 100 & 0.011312 & 0.001230\\
+ER & Full Greedy & 100 & 0.021698 & 2.709064\\
+ER & Incident Greedy & 100 & 0.021698 & 0.059032\\
+ER & Global SG20 & 100 & 0.006985 & 0.015452\\
+ER & Incident SG100 & 100 & 0.021698 & 0.058554\\
+ER & Incident SG20 & 100 & 0.019902 & 0.015157\\
+ER & RL-BCM & 100 & 0.020802 & 0.047899\\
+ER & Myopic & 100 & 0.021384 & 0.048177\\
+ER & No BC & 100 & 0.020734 & 0.044557\\
+ER & Degree & 256 & 0.002580 & 0.005540\\
+ER & Incident Greedy & 256 & 0.003825 & 0.969571\\
+ER & Global SG20 & 256 & 0.001955 & 0.106297\\
+ER & Incident SG100 & 256 & 0.003811 & 0.418815\\
+ER & Incident SG20 & 256 & 0.003611 & 0.104167\\
+ER & RL-BCM & 256 & 0.003713 & 0.311830\\
+ER & Myopic & 256 & 0.003757 & 0.305093\\
+ER & No BC & 256 & 0.003663 & 0.269020\\
+BA & Degree & 50 & 0.036228 & 0.000611\\
+BA & Full Greedy & 50 & 0.094487 & 0.169474\\
+BA & Incident Greedy & 50 & 0.094487 & 0.007349\\
+BA & Global SG20 & 50 & 0.019957 & 0.003948\\
+BA & Incident SG100 & 50 & 0.094487 & 0.007434\\
+BA & Incident SG20 & 50 & 0.086525 & 0.003740\\
+BA & RL-BCM & 50 & 0.077697 & 0.009927\\
+BA & Myopic & 50 & 0.085731 & 0.009598\\
+BA & No BC & 50 & 0.075406 & 0.008714\\
+BA & Degree & 100 & 0.036126 & 0.001325\\
+BA & Full Greedy & 100 & 0.069869 & 2.861243\\
+BA & Incident Greedy & 100 & 0.069869 & 0.059216\\
+BA & Global SG20 & 100 & 0.009936 & 0.014033\\
+BA & Incident SG100 & 100 & 0.069869 & 0.059894\\
+BA & Incident SG20 & 100 & 0.063336 & 0.013588\\
+BA & RL-BCM & 100 & 0.048055 & 0.046539\\
+BA & Myopic & 100 & 0.059275 & 0.050862\\
+BA & No BC & 100 & 0.047887 & 0.046297\\
+BA & Degree & 256 & 0.023551 & 0.005337\\
+BA & Incident Greedy & 256 & 0.040882 & 0.995029\\
+BA & Global SG20 & 256 & 0.000776 & 0.089492\\
+BA & Incident SG100 & 256 & 0.035404 & 0.398642\\
+BA & Incident SG20 & 256 & 0.025893 & 0.087267\\
+BA & RL-BCM & 256 & 0.011884 & 0.291900\\
+BA & Myopic & 256 & 0.021080 & 0.296916\\
+BA & No BC & 256 & 0.014447 & 0.282307\\
+WS & Degree & 50 & 0.325878 & 0.000598\\
+WS & Full Greedy & 50 & 0.414083 & 0.167057\\
+WS & Incident Greedy & 50 & 0.414083 & 0.006956\\
+WS & Global SG20 & 50 & 0.160054 & 0.003822\\
+WS & Incident SG100 & 50 & 0.414083 & 0.007232\\
+WS & Incident SG20 & 50 & 0.396988 & 0.003721\\
+WS & RL-BCM & 50 & 0.402955 & 0.009080\\
+WS & Myopic & 50 & 0.408401 & 0.009322\\
+WS & No BC & 50 & 0.370992 & 0.008793\\
+WS & Degree & 100 & 0.311090 & 0.001255\\
+WS & Full Greedy & 100 & 0.438549 & 2.915208\\
+WS & Incident Greedy & 100 & 0.438549 & 0.059081\\
+WS & Global SG20 & 100 & 0.143017 & 0.014064\\
+WS & Incident SG100 & 100 & 0.438549 & 0.059103\\
+WS & Incident SG20 & 100 & 0.406165 & 0.013720\\
+WS & RL-BCM & 100 & 0.395825 & 0.051661\\
+WS & Myopic & 100 & 0.391993 & 0.049709\\
+WS & No BC & 100 & 0.355062 & 0.046353\\
+WS & Degree & 256 & 0.251800 & 0.005696\\
+WS & Incident Greedy & 256 & 0.346315 & 0.999685\\
+WS & Global SG20 & 256 & 0.079504 & 0.090090\\
+WS & Incident SG100 & 256 & 0.323468 & 0.413864\\
+WS & Incident SG20 & 256 & 0.301575 & 0.090542\\
+WS & RL-BCM & 256 & 0.263582 & 0.306776\\
+WS & Myopic & 256 & 0.295342 & 0.315332\\
+WS & No BC & 256 & 0.219844 & 0.288937\\
+\bottomrule\end{longtable}
+The matched mean-quality/median-time comparison finds the main policy dominated by another measured method in 8 of nine family--size cells. This is descriptive evidence on five graphs per cell, not a significance or universal dominance claim. Full records retain all seed and graph outcomes.
+

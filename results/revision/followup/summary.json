@@ -1,0 +1,1432 @@
+{
+  "synthetic": {
+    "ER": {
+      "SampledIncidentGreedy20": {
+        "mean": 0.08172030456763749,
+        "ci": [
+          0.07589089252394546,
+          0.08755282059555529
+        ],
+        "n_graphs": 80,
+        "n_seeds": 5
+      },
+      "SampledIncidentGreedy100": {
+        "mean": 0.08354509061765114,
+        "ci": [
+          0.07777389361026626,
+          0.08943300692405758
+        ],
+        "n_graphs": 80,
+        "n_seeds": 5
+      }
+    },
+    "BA": {
+      "SampledIncidentGreedy20": {
+        "mean": 0.06690700422034154,
+        "ci": [
+          0.06432275177821381,
+          0.06974154428729021
+        ],
+        "n_graphs": 80,
+        "n_seeds": 5
+      },
+      "SampledIncidentGreedy100": {
+        "mean": 0.07133514302661118,
+        "ci": [
+          0.06866293386151379,
+          0.07421949962812406
+        ],
+        "n_graphs": 80,
+        "n_seeds": 5
+      }
+    },
+    "WS": {
+      "SampledIncidentGreedy20": {
+        "mean": 0.27283197410121907,
+        "ci": [
+          0.26200238725741226,
+          0.2835767411347503
+        ],
+        "n_graphs": 80,
+        "n_seeds": 5
+      },
+      "SampledIncidentGreedy100": {
+        "mean": 0.2822687483191201,
+        "ci": [
+          0.2713560609390763,
+          0.2931729588782617
+        ],
+        "n_graphs": 80,
+        "n_seeds": 5
+      }
+    }
+  },
+  "real": [
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "Degree",
+      "mean": 0.004742677203552994,
+      "outcomes": 3
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.013159855730649919,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.013708682880373135,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "IncidentGreedy",
+      "mean": 0.013708682880373137,
+      "outcomes": 3
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "exact",
+      "mean": 0.012129426749840555,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "no_bc",
+      "mean": 0.011451540588300368,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 80,
+      "method": "Degree",
+      "mean": 0.0019528516478954088,
+      "outcomes": 3
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 80,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.028678613194229534,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 80,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.03369505315300499,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 80,
+      "method": "IncidentGreedy",
+      "mean": 0.03369505315300499,
+      "outcomes": 3
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 80,
+      "method": "exact",
+      "mean": 0.030415425088353504,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 80,
+      "method": "no_bc",
+      "mean": 0.02679589680415502,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "Degree",
+      "mean": 0.00037104740739266496,
+      "outcomes": 3
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.006197711589243338,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.008899554120318993,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "IncidentGreedy",
+      "mean": 0.009552609181145007,
+      "outcomes": 3
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "exact",
+      "mean": 0.0072394346873030525,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "no_bc",
+      "mean": 0.00683318067850361,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 256,
+      "method": "Degree",
+      "mean": 0.0008468745702280966,
+      "outcomes": 3
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 256,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.004238813728322094,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 256,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.006247274341800274,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 256,
+      "method": "IncidentGreedy",
+      "mean": 0.006688870884705849,
+      "outcomes": 3
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 256,
+      "method": "exact",
+      "mean": 0.005049152577088702,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "RW",
+      "n": 256,
+      "method": "no_bc",
+      "mean": 0.0050095279049154956,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "LCC",
+      "n": 986,
+      "method": "Degree",
+      "mean": 0.00015381486800412146,
+      "outcomes": 3
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "LCC",
+      "n": 986,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.003065034778272442,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "LCC",
+      "n": 986,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.005785764936544041,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "LCC",
+      "n": 986,
+      "method": "exact",
+      "mean": 0.006094711541490042,
+      "outcomes": 15
+    },
+    {
+      "family": "email-Eu-core",
+      "sampling": "LCC",
+      "n": 986,
+      "method": "no_bc",
+      "mean": 0.005320827112076795,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "Degree",
+      "mean": 0.28376734737007386,
+      "outcomes": 3
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.28079327736568,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.3168176933044784,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "IncidentGreedy",
+      "mean": 0.31681769330447834,
+      "outcomes": 3
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "exact",
+      "mean": 0.27200387936241194,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 80,
+      "method": "no_bc",
+      "mean": 0.2518405050413595,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 80,
+      "method": "Degree",
+      "mean": 0.24626563586316907,
+      "outcomes": 3
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 80,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.46871476902590015,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 80,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.5032463434362168,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 80,
+      "method": "IncidentGreedy",
+      "mean": 0.5032463434362168,
+      "outcomes": 3
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 80,
+      "method": "exact",
+      "mean": 0.35202996428231575,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 80,
+      "method": "no_bc",
+      "mean": 0.3650586645417676,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "Degree",
+      "mean": 0.060800807980750084,
+      "outcomes": 3
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.07004682300055123,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.11959458409737121,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "IncidentGreedy",
+      "mean": 0.13859382469607062,
+      "outcomes": 3
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "exact",
+      "mean": 0.03981513816759108,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "BFS",
+      "n": 256,
+      "method": "no_bc",
+      "mean": 0.06081186202789799,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 256,
+      "method": "Degree",
+      "mean": 0.004560815857177266,
+      "outcomes": 3
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 256,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.28113472788589927,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 256,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.3234156323901002,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 256,
+      "method": "IncidentGreedy",
+      "mean": 0.341473353613313,
+      "outcomes": 3
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 256,
+      "method": "exact",
+      "mean": 0.15527880535077287,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "RW",
+      "n": 256,
+      "method": "no_bc",
+      "mean": 0.15425468164318895,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "LCC",
+      "n": 4158,
+      "method": "Degree",
+      "mean": 0.004209057929234884,
+      "outcomes": 3
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "LCC",
+      "n": 4158,
+      "method": "SampledIncidentGreedy20",
+      "mean": 0.01946402895447198,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "LCC",
+      "n": 4158,
+      "method": "SampledIncidentGreedy100",
+      "mean": 0.0296596148027071,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "LCC",
+      "n": 4158,
+      "method": "exact",
+      "mean": 0.00715129448493462,
+      "outcomes": 15
+    },
+    {
+      "family": "ca-GrQc",
+      "sampling": "LCC",
+      "n": 4158,
+      "method": "no_bc",
+      "mean": 0.009211778957592377,
+      "outcomes": 15
+    }
+  ],
+  "timing": [
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "Degree",
+      "mean_final": 0.052788152064373074,
+      "median_seconds": 0.000639899997622706,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "FullGreedy",
+      "mean_final": 0.10574731487075228,
+      "median_seconds": 0.1624986000097124,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "IncidentGreedy",
+      "mean_final": 0.10574731487075228,
+      "median_seconds": 0.007189900003140792,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "SampledGreedy20",
+      "mean_final": 0.04984357076719022,
+      "median_seconds": 0.003935999993700534,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "SampledIncidentGreedy100",
+      "mean_final": 0.10574731487075228,
+      "median_seconds": 0.007395700013148598,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "SampledIncidentGreedy20",
+      "mean_final": 0.10308626187942387,
+      "median_seconds": 0.0038449999992735684,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "exact",
+      "mean_final": 0.10087663878405173,
+      "median_seconds": 0.00966589999734424,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "myopic",
+      "mean_final": 0.10348469624279948,
+      "median_seconds": 0.009658299997681752,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "no_bc",
+      "mean_final": 0.1000466975761567,
+      "median_seconds": 0.008850600002915598,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "method": "Degree",
+      "mean_final": 0.011311507710371926,
+      "median_seconds": 0.0012299999652896076,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "method": "FullGreedy",
+      "mean_final": 0.021698295382267255,
+      "median_seconds": 2.709064099995885,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "method": "IncidentGreedy",
+      "mean_final": 0.021698295382267255,
+      "median_seconds": 0.059031600030721165,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "method": "SampledGreedy20",
+      "mean_final": 0.006984517586426145,
+      "median_seconds": 0.015451799990842119,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "method": "SampledIncidentGreedy100",
+      "mean_final": 0.021698295382267255,
+      "median_seconds": 0.058554400005959906,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "method": "SampledIncidentGreedy20",
+      "mean_final": 0.01990175012524539,
+      "median_seconds": 0.01515749997633975,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "method": "exact",
+      "mean_final": 0.020801551864717837,
+      "median_seconds": 0.0478988999966532,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "method": "myopic",
+      "mean_final": 0.021383932513803647,
+      "median_seconds": 0.048176599986618385,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "method": "no_bc",
+      "mean_final": 0.020734369251464595,
+      "median_seconds": 0.044557099987287074,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 256,
+      "method": "Degree",
+      "mean_final": 0.0025795888361120254,
+      "median_seconds": 0.005540099984500557,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 256,
+      "method": "IncidentGreedy",
+      "mean_final": 0.0038254998694472347,
+      "median_seconds": 0.9695712999964599,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 256,
+      "method": "SampledGreedy20",
+      "mean_final": 0.001955162270972802,
+      "median_seconds": 0.10629720000724774,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 256,
+      "method": "SampledIncidentGreedy100",
+      "mean_final": 0.003811278148574937,
+      "median_seconds": 0.4188152999995509,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 256,
+      "method": "SampledIncidentGreedy20",
+      "mean_final": 0.0036107407712405682,
+      "median_seconds": 0.10416729999997187,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 256,
+      "method": "exact",
+      "mean_final": 0.003713303205251231,
+      "median_seconds": 0.3118298000044888,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 256,
+      "method": "myopic",
+      "mean_final": 0.0037571349306327433,
+      "median_seconds": 0.3050927000003867,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "ER",
+      "n": 256,
+      "method": "no_bc",
+      "mean_final": 0.003663422294419197,
+      "median_seconds": 0.2690204999962589,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "Degree",
+      "mean_final": 0.0362275038775639,
+      "median_seconds": 0.0006107000081101432,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "FullGreedy",
+      "mean_final": 0.09448745840327473,
+      "median_seconds": 0.16947379997873213,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "IncidentGreedy",
+      "mean_final": 0.09448745840327473,
+      "median_seconds": 0.007348600003751926,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "SampledGreedy20",
+      "mean_final": 0.019956924689067543,
+      "median_seconds": 0.003947900011553429,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "SampledIncidentGreedy100",
+      "mean_final": 0.09448745840327473,
+      "median_seconds": 0.007433600025251508,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "SampledIncidentGreedy20",
+      "mean_final": 0.08652454216229725,
+      "median_seconds": 0.0037404000031528994,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "exact",
+      "mean_final": 0.07769691948263376,
+      "median_seconds": 0.00992739999492187,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "myopic",
+      "mean_final": 0.08573116273371377,
+      "median_seconds": 0.00959780000266619,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "no_bc",
+      "mean_final": 0.07540614587405672,
+      "median_seconds": 0.008713699993677437,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "Degree",
+      "mean_final": 0.03612631246257127,
+      "median_seconds": 0.0013248999894130975,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "FullGreedy",
+      "mean_final": 0.06986866468769276,
+      "median_seconds": 2.861242500002845,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "IncidentGreedy",
+      "mean_final": 0.06986866468769276,
+      "median_seconds": 0.059215500004938804,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "SampledGreedy20",
+      "mean_final": 0.009936134574765148,
+      "median_seconds": 0.01403320003009867,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "SampledIncidentGreedy100",
+      "mean_final": 0.06986866468769276,
+      "median_seconds": 0.059894100020756014,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "SampledIncidentGreedy20",
+      "mean_final": 0.06333610054014485,
+      "median_seconds": 0.01358790002996102,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "exact",
+      "mean_final": 0.04805546658763542,
+      "median_seconds": 0.04653949999192264,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "myopic",
+      "mean_final": 0.059274925952874646,
+      "median_seconds": 0.050861800002167,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "no_bc",
+      "mean_final": 0.04788729826151971,
+      "median_seconds": 0.046297000008053146,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "Degree",
+      "mean_final": 0.023550667195761165,
+      "median_seconds": 0.005336600006558001,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "IncidentGreedy",
+      "mean_final": 0.040881678899282466,
+      "median_seconds": 0.9950294000154827,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "SampledGreedy20",
+      "mean_final": 0.0007761131603135059,
+      "median_seconds": 0.08949240000220016,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "SampledIncidentGreedy100",
+      "mean_final": 0.035404189463042586,
+      "median_seconds": 0.3986421000008704,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "SampledIncidentGreedy20",
+      "mean_final": 0.025893157555883273,
+      "median_seconds": 0.08726650002063252,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "exact",
+      "mean_final": 0.011883690949113863,
+      "median_seconds": 0.2919003999995766,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "myopic",
+      "mean_final": 0.021079801476295047,
+      "median_seconds": 0.29691629999433644,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "no_bc",
+      "mean_final": 0.014446748390617128,
+      "median_seconds": 0.28230740000435617,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "Degree",
+      "mean_final": 0.3258778436202577,
+      "median_seconds": 0.0005981999856885523,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "FullGreedy",
+      "mean_final": 0.4140829445053634,
+      "median_seconds": 0.16705670002556872,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "IncidentGreedy",
+      "mean_final": 0.4140829445053634,
+      "median_seconds": 0.0069560000411001965,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "SampledGreedy20",
+      "mean_final": 0.16005370363397847,
+      "median_seconds": 0.0038222000002861023,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "SampledIncidentGreedy100",
+      "mean_final": 0.4140829445053634,
+      "median_seconds": 0.007231899973703548,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "SampledIncidentGreedy20",
+      "mean_final": 0.3969881903810475,
+      "median_seconds": 0.0037206000124569982,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "exact",
+      "mean_final": 0.4029548732163528,
+      "median_seconds": 0.009079600000404753,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "myopic",
+      "mean_final": 0.4084012757200782,
+      "median_seconds": 0.009321699995780364,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "no_bc",
+      "mean_final": 0.370992100775264,
+      "median_seconds": 0.008793499990133569,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "Degree",
+      "mean_final": 0.311090417509057,
+      "median_seconds": 0.0012553000124171376,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "FullGreedy",
+      "mean_final": 0.43854880355270537,
+      "median_seconds": 2.915207800004282,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "IncidentGreedy",
+      "mean_final": 0.43854880355270537,
+      "median_seconds": 0.05908050001016818,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "SampledGreedy20",
+      "mean_final": 0.14301700860885042,
+      "median_seconds": 0.014063700000406243,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "SampledIncidentGreedy100",
+      "mean_final": 0.43854880355270537,
+      "median_seconds": 0.0591032000083942,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "SampledIncidentGreedy20",
+      "mean_final": 0.40616539663503026,
+      "median_seconds": 0.013719900001888163,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "exact",
+      "mean_final": 0.39582503973978866,
+      "median_seconds": 0.05166139999346342,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "myopic",
+      "mean_final": 0.39199335562928067,
+      "median_seconds": 0.04970899999898393,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "no_bc",
+      "mean_final": 0.3550615452527889,
+      "median_seconds": 0.04635289999714587,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 256,
+      "method": "Degree",
+      "mean_final": 0.2517997644230581,
+      "median_seconds": 0.005696000007446855,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 256,
+      "method": "IncidentGreedy",
+      "mean_final": 0.34631545156123994,
+      "median_seconds": 0.999685100003262,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 256,
+      "method": "SampledGreedy20",
+      "mean_final": 0.07950378480122733,
+      "median_seconds": 0.09008969998103566,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 256,
+      "method": "SampledIncidentGreedy100",
+      "mean_final": 0.32346778979369134,
+      "median_seconds": 0.41386400000192225,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 256,
+      "method": "SampledIncidentGreedy20",
+      "mean_final": 0.30157499338545046,
+      "median_seconds": 0.09054209999158047,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 256,
+      "method": "exact",
+      "mean_final": 0.26358170236604367,
+      "median_seconds": 0.3067756000091322,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 256,
+      "method": "myopic",
+      "mean_final": 0.2953417684673644,
+      "median_seconds": 0.3153317000105744,
+      "graphs": 5,
+      "repetitions": 3
+    },
+    {
+      "family": "WS",
+      "n": 256,
+      "method": "no_bc",
+      "mean_final": 0.2198444039262446,
+      "median_seconds": 0.2889367999887327,
+      "graphs": 5,
+      "repetitions": 3
+    }
+  ],
+  "dominance": [
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "SampledIncidentGreedy20"
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "SampledIncidentGreedy100"
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "IncidentGreedy"
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "method": "myopic"
+    },
+    {
+      "family": "ER",
+      "n": 256,
+      "method": "myopic"
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "SampledIncidentGreedy20"
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "SampledIncidentGreedy100"
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "IncidentGreedy"
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "method": "myopic"
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "method": "SampledIncidentGreedy20"
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "Degree"
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "SampledIncidentGreedy20"
+    },
+    {
+      "family": "BA",
+      "n": 256,
+      "method": "no_bc"
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "SampledIncidentGreedy100"
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "method": "IncidentGreedy"
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "method": "SampledIncidentGreedy20"
+    },
+    {
+      "family": "WS",
+      "n": 256,
+      "method": "SampledIncidentGreedy20"
+    }
+  ],
+  "action_incidence": {
+    "exact": {
+      "incident": 6000,
+      "total": 6000
+    },
+    "no_bc": {
+      "incident": 6000,
+      "total": 6000
+    },
+    "myopic": {
+      "incident": 5977,
+      "total": 6000
+    },
+    "FullGreedy": {
+      "incident": 1200,
+      "total": 1200
+    }
+  },
+  "size_transfer": [
+    {
+      "family": "ER",
+      "n": 30,
+      "rl": 0.2102018115250407,
+      "incident": 0.21863198412098708,
+      "ratio": 0.9614412656508606
+    },
+    {
+      "family": "ER",
+      "n": 50,
+      "rl": 0.06705282517034572,
+      "incident": 0.07053302593830896,
+      "ratio": 0.9506585642446822
+    },
+    {
+      "family": "ER",
+      "n": 80,
+      "rl": 0.026769209439138016,
+      "incident": 0.02802701701245109,
+      "ratio": 0.9551216038169782
+    },
+    {
+      "family": "ER",
+      "n": 100,
+      "rl": 0.01625383323151356,
+      "incident": 0.016988335398857402,
+      "ratio": 0.9567643238669963
+    },
+    {
+      "family": "BA",
+      "n": 30,
+      "rl": 0.10211202744374098,
+      "incident": 0.10641148521943947,
+      "ratio": 0.9595959236276776
+    },
+    {
+      "family": "BA",
+      "n": 50,
+      "rl": 0.07031699274336146,
+      "incident": 0.07623758348119461,
+      "ratio": 0.922340262276367
+    },
+    {
+      "family": "BA",
+      "n": 80,
+      "rl": 0.04323525065161247,
+      "incident": 0.054983618817026084,
+      "ratio": 0.7863296665774271
+    },
+    {
+      "family": "BA",
+      "n": 100,
+      "rl": 0.03545495840636106,
+      "incident": 0.04770788458878459,
+      "ratio": 0.7431676904554261
+    },
+    {
+      "family": "WS",
+      "n": 30,
+      "rl": 0.28141530541305526,
+      "incident": 0.28765738917754347,
+      "ratio": 0.9783002836035769
+    },
+    {
+      "family": "WS",
+      "n": 50,
+      "rl": 0.2787256578338171,
+      "incident": 0.2879213001985888,
+      "ratio": 0.9680619587420967
+    },
+    {
+      "family": "WS",
+      "n": 80,
+      "rl": 0.2640737642270945,
+      "incident": 0.2850434674696049,
+      "ratio": 0.9264333140883277
+    },
+    {
+      "family": "WS",
+      "n": 100,
+      "rl": 0.23125644710297366,
+      "incident": 0.26845283643074314,
+      "ratio": 0.8614416229594744
+    }
+  ],
+  "tiny_optimum_by_family": {
+    "ER": 0.22,
+    "BA": 0.22,
+    "WS": 0.95
+  },
+  "tiny_greedy_failure_outcomes": 30,
+  "tiny_beats_greedy": 1
+}

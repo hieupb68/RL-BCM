@@ -1,0 +1,8 @@
+{
+  "seed": 33,
+  "variant": "no_bc",
+  "episodes": 5000,
+  "device": "cpu",
+  "use_bc": false,
+  "gamma": 1.0
+}

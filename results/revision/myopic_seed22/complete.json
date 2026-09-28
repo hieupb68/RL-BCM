@@ -1,0 +1,10 @@
+{
+  "seed": 22,
+  "variant": "myopic",
+  "episodes": 5000,
+  "device": "cpu",
+  "use_bc": true,
+  "gamma": 0.0,
+  "elapsed": 396.5744502000016,
+  "updates": 313
+}

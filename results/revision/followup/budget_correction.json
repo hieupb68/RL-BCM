@@ -1,0 +1,43 @@
+{
+  "status": "corrected",
+  "infeasible_instances": [
+    {
+      "id": "tiny_BA_2_8_9",
+      "old_steps": 1,
+      "old_prefix_bc": 0.35714285714285715,
+      "optimum_exact_k": 0.3333333333333333
+    },
+    {
+      "id": "tiny_WS_0.2_8_10",
+      "old_steps": 1,
+      "old_prefix_bc": 0.023809523809523808,
+      "optimum_exact_k": 0.015873015873015872
+    },
+    {
+      "id": "tiny_WS_0.2_8_11",
+      "old_steps": 1,
+      "old_prefix_bc": 0.023809523809523808,
+      "optimum_exact_k": 0.015873015873015872
+    },
+    {
+      "id": "tiny_WS_0.2_8_13",
+      "old_steps": 1,
+      "old_prefix_bc": 0.030952380952380953,
+      "optimum_exact_k": 0.01904761904761905
+    },
+    {
+      "id": "tiny_WS_0.2_8_15",
+      "old_steps": 1,
+      "old_prefix_bc": 0.023809523809523808,
+      "optimum_exact_k": 0.015873015873015872
+    },
+    {
+      "id": "tiny_WS_0.2_8_19",
+      "old_steps": 1,
+      "old_prefix_bc": 0.026984126984126982,
+      "optimum_exact_k": 0.01904761904761905
+    }
+  ],
+  "policy": "No partial rollout is reported as a feasible exactly-k solution",
+  "original_snapshot": "output/pre_followup_snapshot.zip"
+}

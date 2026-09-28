@@ -1,0 +1,7 @@
+{
+  "mode": "Two disjoint target workers; quality only",
+  "rows": 300,
+  "prefix_rows": 170,
+  "tail_rows": 130,
+  "note": "Quality-stage seconds are not used for speedup claims; the later timing stage is isolated."
+}

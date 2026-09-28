@@ -1,0 +1,49 @@
+{
+  "version": "revision-v1",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "episodes": 5000,
+  "budget": 5,
+  "hidden": 64,
+  "layers": 3,
+  "batch_episodes": 16,
+  "ppo_epochs": 4,
+  "minibatch": 32,
+  "lr": 0.0003,
+  "gamma": 1.0,
+  "gae_lambda": 0.95,
+  "clip": 0.2,
+  "entropy": 0.01,
+  "reward": "100 * absolute BC increment",
+  "model_selection": "last checkpoint; validation logged, never selected on test",
+  "primary": "absolute final normalized BC",
+  "variants": {
+    "exact": {
+      "use_bc": true,
+      "gamma": 1.0
+    },
+    "no_bc": {
+      "use_bc": false,
+      "gamma": 1.0
+    },
+    "myopic": {
+      "use_bc": true,
+      "gamma": 0.0
+    }
+  },
+  "python": "3.11.9",
+  "torch": "2.0.1+cu117",
+  "networkx": "3.4.2",
+  "cpu": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "hardware_gpu": "NVIDIA GeForce GTX 1650",
+  "data_counts": {
+    "train": 480,
+    "validation": 36,
+    "test": 240
+  }
+}

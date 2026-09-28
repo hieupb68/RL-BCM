@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "RL-BCM: Reinforcement Learning for Betweenness Centrality Maximization"
+authors:
+  - family-names: Pham
+    given-names: Hieu B.
+  - family-names: Nguyen
+    given-names: Uyen T.
+  - family-names: Pham
+    given-names: Canh V.
+license: MIT
+repository-code: "https://github.com/hieupb68/RL-BCM"
+preferred-citation:
+  type: conference-paper
+  title: "Reinforcement Learning for Betweenness Centrality Maximization via Graph Structure Modification"
+  authors:
+    - family-names: Pham
+      given-names: Hieu B.
+    - family-names: Nguyen
+      given-names: Uyen T.
+    - family-names: Pham
+      given-names: Canh V.
+  conference:
+    name: "15th International Conference on Computational Science and Network Intelligence (CSoNet 2026)"
+  collection-title: "Lecture Notes in Computer Science"
+  publisher:
+    name: Springer
+  year: 2026

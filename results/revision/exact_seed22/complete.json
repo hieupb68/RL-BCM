@@ -1,0 +1,10 @@
+{
+  "seed": 22,
+  "variant": "exact",
+  "episodes": 5000,
+  "device": "cpu",
+  "use_bc": true,
+  "gamma": 1.0,
+  "elapsed": 489.1576420000056,
+  "updates": 313
+}
